@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: foo
+  description: bar
+  annotations:
+    github.com/project-slug: aschepis/foobar
+spec:
+  type: website
+  lifecycle: experimental
+  owner: adam
